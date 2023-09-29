@@ -1,0 +1,144 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.p1 {
+  color: white;
+  background-image: url(./img/p1back.png);
+  background-repeat: no-repeat;
+  background-position-y: -100px;
+  background-size: cover;
+  height: 100vh;
+}
+.p1 a {
+  color: white;
+}
+.p1 hr {
+  color: white;
+}
+.p1 .container:last-child {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.p1 .container:last-child h1 {
+  max-width: 700px;
+}
+.p1 .container:last-child button {
+  border-radius: 30px;
+}
+
+.disabled {
+  max-width: 650px;
+  color: #999999;
+}
+
+.p2 .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  align-items: center;
+}
+.p2 .container h1 {
+  max-width: 730px;
+}
+.p2 .container .card1 {
+  max-width: 353px;
+}
+.p2 .container button {
+  border-radius: 30px;
+}
+
+.p3 h2 {
+  max-width: 424px;
+}
+.p3 .disabled {
+  max-width: 489px;
+}
+
+.p4 {
+  position: relative;
+}
+.p4 .col2 {
+  align-items: center;
+  text-align: end;
+}
+.p4 .bg {
+  position: absolute;
+  height: 50%;
+  width: 100%;
+  z-index: -1;
+  background: linear-gradient(90deg, #504DC2 20.44%, #5F12D0 80.91%), #C4C4C4;
+}
+.p4 .title {
+  color: white;
+  max-width: 540px;
+}
+.p4 button {
+  border-radius: 30px;
+}
+.p4 .col-md-4 {
+  border-radius: 10px;
+}
+
+.p5 .container {
+  text-align: center;
+}
+.p5 .container p {
+  margin: 0 auto;
+}
+
+.p6 {
+  background-image: url(./img/card.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 70vh;
+}
+.p6 .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.p6 .light {
+  color: white;
+  text-align: center;
+}
+
+.p7 .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.p7 .container input {
+  border-radius: 30px 0 0 30px;
+}
+.p7 .container button {
+  color: white;
+  border-radius: 0 30px 30px 0;
+}
+
+.footer p {
+  text-align: center;
+  color: #999999;
+}/*# sourceMappingURL=2.css.map */
